@@ -1,0 +1,27 @@
+1st step:
+-use mysql workbench(dili mssql)
+-copy paste code from DATABASE.txt
+
+2nd step:
+-launch vscode
+-ipang change ang values na naas db.py and find this line:
+
+connection = mysql.connector.connect(
+                host="localhost", <-- ayaw I change
+                user="root", <-- ayaw I change
+                password="password", <-- depende sa unsa imo gi set na password sa imong mysql
+                database="calendar_of_events" <-- ayaw na sab I change kay maoy pangalan sa database
+
+3rd step:
+-go to login_register.py tas run ang code, if wala moy compiler adto sa extensions tas install
+	-code runner
+	-black formatter
+	-intellicode
+	-pylance
+	-python
+	-python debugger
+	-python indent
+	-sqltools
+
+4th step:
+watch it run
